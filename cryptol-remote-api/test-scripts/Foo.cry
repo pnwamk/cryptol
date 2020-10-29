@@ -49,3 +49,6 @@ op10 a = 0
 
 op11 : {n} (fin n) => [n] -> [lg2 n]
 op11 a = 0
+
+fives : {n} (fin n) => [n][5] -> [n][5]
+fives fs = fs
